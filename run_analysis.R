@@ -99,6 +99,4 @@ melt_data = melt( data, id = id_labels, mesaurement = data_labels)
 # set with the average of each variable for each activity and each subject.
 # mean function here aggregates the data set 
 tidy_data = dcast(melt_data, SubID + Activity.Type ~ variable, mean )
-
-
 write.table(tidy_data, "./tidy_data.txt", row.names = FALSE)
