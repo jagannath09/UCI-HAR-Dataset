@@ -14,10 +14,9 @@ data points about their movements.
 Original Dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Experiment Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-### The data
+### Input Data
 
 The dataset includes the following files:
-
 
 *	features.txt: Names of 561 features
 *	activity_labels.txt: Names and IDs for each of the 6 activities.
@@ -46,3 +45,7 @@ folders were ignored.
 * Use descriptive activity names to name the activities in the data set
 * Finally, create a second, independent tidy data set with the average of each variable 
   for each activity and each subject
+
+### Output Data
+
+* tidy_data.txt
