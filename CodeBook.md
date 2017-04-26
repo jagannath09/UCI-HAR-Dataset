@@ -1,6 +1,6 @@
 ## CodeBook
 
-This is a code book describes the specs for the "data clean up" project, data sources, variables, 
+This code book describes the specs for the "data clean up" project, data sources, variables, 
 and all transformations used to produce the tiny data.
 
 ### Overview
